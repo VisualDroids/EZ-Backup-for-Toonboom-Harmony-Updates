@@ -14,7 +14,7 @@
 <body>
 	<h1>Download started...</h1>
 	<script>
-		fetch("https://api.github.com/repos/VisualDroids/EZ-Render-for-Toonboom-Harmony-Updates/releases/latest")
+		fetch("https://api.github.com/repos/VisualDroids/EZ-Backup-for-Toonboom-Harmony-Updates/releases/latest")
 			.then(response => response.json())
 			.then(data => {
 				window.location = data.assets[0].browser_download_url;
